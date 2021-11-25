@@ -30,7 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository:  
     `git clone https://github.com/Skerwe/Advent-of-Code-2021.git`
 
-2. In the command line, cd into the project directory:  
+2. In bash/terminal/command line, cd into the project directory:  
     `cd Advent-of-Code-2021`
 
 3. Compile and build the application:  
@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 TODO: how to run the application for a specific day.
 
-After running the application the final output of the challenges can be found in the console/terminal/shell.
+The final output of the challenge is printed to the console.
 
 ## Maven Site and Reports
 
