@@ -36,7 +36,17 @@ These instructions will get you a copy of the project up and running on your loc
 3. Compile and build the application:  
    `mvn compile package`
 
-TODO: how to run the application for a specific day.
+Run the application for all days:
+
+```shell
+mvn compile exec:java -Dexec.mainClass="za.web.skerwe.adventofcode2021.Main"
+```
+
+Run the application for a specific day:
+
+```shell
+mvn compile exec:java -Dexec.mainClass="za.web.skerwe.adventofcode2021.Main" -Dexec.arguments="D01,D03"
+```
 
 The final output of the challenge is printed to the console.
 
@@ -92,6 +102,7 @@ mvn pmd:check
 - [Java](https://www.java.com/en/) programming language
 - [Maven][maven] build tool
 - [JUnit Jupiter][junit] (JUnit 5) testing framework
+- [textfac.es](https://textfac.es/) ಠ⌣ಠ
 
 ## License
 

@@ -1,11 +1,9 @@
-package za.web.skerwe.adventofcode2021;
+package za.web.skerwe.adventofcode2021.util;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.IOException;
-
-import za.web.skerwe.adventofcode2021.util.InputFileReader;
 
 public class InputFileReaderTest {
 
