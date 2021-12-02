@@ -8,36 +8,18 @@ import za.web.skerwe.adventofcode2021.util.InputFileReader;
 
 public class Day01 implements AdventDay {
 
-  private String INPUT_PART_1 = "src/main/resources/input01-p1.txt";
+  private String inputPart1 = "src/main/resources/input01-p1.txt";
 
   @Override
-  public String processPartOne() {
-    String[] input = {};
-    try {
-      input = InputFileReader.readInputFile(this.INPUT_PART_1);
-    } catch (IOException exception) {
-      exception.printStackTrace();
-    }
-
-    if (input.length == 0) {
-      return "error 100/3 ಠ╭╮ಠ";
-    }
+  public String processPartOne() throws IOException {
+    String[] input = InputFileReader.readInputFile(this.inputPart1);
 
     return String.valueOf(calculateDepthMeasurementIncreases(input));
   }
 
   @Override
-  public String processPartTwo() {
-    String[] input = {};
-    try {
-      input = InputFileReader.readInputFile(this.INPUT_PART_1);
-    } catch (IOException exception) {
-      exception.printStackTrace();
-    }
-
-    if (input.length == 0) {
-      return "error 100/3 ಠ╭╮ಠ";
-    }
+  public String processPartTwo() throws IOException {
+    String[] input = InputFileReader.readInputFile(this.inputPart1);
 
     ArrayList<String> inputGrouped = new ArrayList<>();
     createThreeMeasurementGroup(inputGrouped, input, 0);
@@ -51,12 +33,12 @@ public class Day01 implements AdventDay {
 
   @Override
   public void setInputFileNamePartOne(String fileName) {
-    this.INPUT_PART_1 = fileName;
+    this.inputPart1 = fileName;
   }
 
   @Override
   public void setInputFileNamePartTwo(String fileName) {
-    this.INPUT_PART_1 = fileName;
+    this.inputPart1 = fileName;
   }
 
   private int calculateDepthMeasurementIncreases(String[] input) {

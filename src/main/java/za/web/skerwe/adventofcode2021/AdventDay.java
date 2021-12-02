@@ -1,10 +1,12 @@
 package za.web.skerwe.adventofcode2021;
 
+import java.io.IOException;
+
 public interface AdventDay {
 
-  String processPartOne();
+  String processPartOne() throws IOException;
 
-  String processPartTwo();
+  String processPartTwo() throws IOException;
 
   void setInputFileNamePartOne(String fileName);
 
