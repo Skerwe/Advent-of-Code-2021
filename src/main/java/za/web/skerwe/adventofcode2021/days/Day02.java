@@ -5,9 +5,19 @@ import java.io.IOException;
 import za.web.skerwe.adventofcode2021.AdventDay;
 import za.web.skerwe.adventofcode2021.util.InputFileReader;
 
-public class Day02 implements AdventDay {
+public class Day02 extends AdventDay {
 
-  private String inputPart1 = "src/main/resources/input02-p1.txt";
+  /**
+   * Setup for the day's challenge (¬‿¬)
+   */
+  public Day02() {
+    id = 2;
+    name = "Day 2: Dive!";
+    partOneDescription = "Multiplying final horizontal position by the final depth";
+    partTwoDescription = "Multiplying final horizontal position by the final depth";
+
+    inputPart1 = "src/main/resources/input02-p1.txt";
+  }
 
   @Override
   public String processPartOne() throws IOException {
@@ -21,16 +31,6 @@ public class Day02 implements AdventDay {
     String[] input = InputFileReader.readInputFile(this.inputPart1);
 
     return String.valueOf(calculateDepthAfterDiveWithAim(input));
-  }
-
-  @Override
-  public void setInputFileNamePartOne(String fileName) {
-    this.inputPart1 = fileName;
-  }
-
-  @Override
-  public void setInputFileNamePartTwo(String fileName) {
-    this.inputPart1 = fileName;
   }
 
   private int calculateDepthAfterDive(String[] input) {

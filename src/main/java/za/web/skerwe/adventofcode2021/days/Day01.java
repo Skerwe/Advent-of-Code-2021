@@ -6,9 +6,19 @@ import java.util.ArrayList;
 import za.web.skerwe.adventofcode2021.AdventDay;
 import za.web.skerwe.adventofcode2021.util.InputFileReader;
 
-public class Day01 implements AdventDay {
+public class Day01 extends AdventDay {
 
-  private String inputPart1 = "src/main/resources/input01-p1.txt";
+  /**
+   * Setup for the day's challenge (¬‿¬)
+   */
+  public Day01() {
+    id = 1;
+    name = "Day 1: Sonar Sweep";
+    partOneDescription = "The number of times a depth measurement increases";
+    partTwoDescription = "The number of times the sum of measurements in the sliding window increases";
+
+    inputPart1 = "src/main/resources/input01-p1.txt";
+  }
 
   @Override
   public String processPartOne() throws IOException {
@@ -24,21 +34,11 @@ public class Day01 implements AdventDay {
     ArrayList<String> inputGrouped = new ArrayList<>();
     createThreeMeasurementGroup(inputGrouped, input, 0);
 
-    if (inputGrouped.size() == 0) {
+    if (inputGrouped.isEmpty()) {
       return "error 5000 ლ(ಠ益ಠლ)";
     }
 
     return String.valueOf(calculateDepthMeasurementIncreases(inputGrouped.toArray(input)));
-  }
-
-  @Override
-  public void setInputFileNamePartOne(String fileName) {
-    this.inputPart1 = fileName;
-  }
-
-  @Override
-  public void setInputFileNamePartTwo(String fileName) {
-    this.inputPart1 = fileName;
   }
 
   private int calculateDepthMeasurementIncreases(String[] input) {

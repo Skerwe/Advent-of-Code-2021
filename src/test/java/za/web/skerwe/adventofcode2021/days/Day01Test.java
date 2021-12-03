@@ -1,12 +1,11 @@
 package za.web.skerwe.adventofcode2021.days;
 
 import org.junit.jupiter.api.Test;
-
-import za.web.skerwe.adventofcode2021.AdventDay;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.IOException;
+
+import za.web.skerwe.adventofcode2021.AdventDay;
 
 public class Day01Test {
 
@@ -15,23 +14,23 @@ public class Day01Test {
   @Test
   public void testProcessPartOne() throws IOException {
     AdventDay dayTestClass = new Day01();
-    dayTestClass.setInputFileNamePartOne(TEST_INPUT_FILE_NAME);
+    dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
 
     String outputValue = dayTestClass.processPartOne();
 
-    assertTrue(outputValue != null);
-    assertEquals(outputValue, "7");
+    assertNotNull(outputValue);
+    assertEquals("7", outputValue);
   }
 
   @Test
   public void testProcessPartTwo() throws IOException {
     AdventDay dayTestClass = new Day01();
-    dayTestClass.setInputFileNamePartTwo(TEST_INPUT_FILE_NAME);
+    dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
 
     String outputValue = dayTestClass.processPartTwo();
 
-    assertTrue(outputValue != null);
-    assertEquals(outputValue, "5");
+    assertNotNull(outputValue);
+    assertEquals("5", outputValue);
   }
 
 }

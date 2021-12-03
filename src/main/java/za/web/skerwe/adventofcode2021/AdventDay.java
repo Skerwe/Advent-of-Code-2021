@@ -1,15 +1,32 @@
 package za.web.skerwe.adventofcode2021;
 
-import java.io.IOException;
+public abstract class AdventDay implements ChallengeI {
 
-public interface AdventDay {
+  protected int id;
+  protected String name;
+  protected String partOneDescription;
+  protected String partTwoDescription;
 
-  String processPartOne() throws IOException;
+  protected String inputPart1;
 
-  String processPartTwo() throws IOException;
+  @Override
+  public void setInputFileName(String fileName) {
+    this.inputPart1 = fileName;
+  }
 
-  void setInputFileNamePartOne(String fileName);
+  public int getId() {
+    return id;
+  }
 
-  void setInputFileNamePartTwo(String fileName);
+  public String getName() {
+    return name;
+  }
 
+  public String getPartOneDescription() {
+    return partOneDescription;
+  }
+
+  public String getPartTwoDescription() {
+    return partTwoDescription;
+  }
 }
