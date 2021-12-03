@@ -1,13 +1,16 @@
 package za.web.skerwe.adventofcode2021.util;
 
-import java.io.FileReader;
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class InputFileReader {
+
+  private InputFileReader() {
+  }
 
   /**
    * Read a text file into an array of strings.
