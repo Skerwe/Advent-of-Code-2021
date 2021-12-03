@@ -15,6 +15,12 @@ My attempt at the Advent of Code for 2021 using Java
 ![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)
 ![GitHub](https://img.shields.io/github/license/Skerwe/Advent-of-Code-2020?style=for-the-badge)
 
+## Advent of Code 2021 Progress
+
+1. Sonar Sweep :star: :star:
+2. Dive! :star: :star:
+3. Day 3: Binary Diagnostic :star: :star:
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
