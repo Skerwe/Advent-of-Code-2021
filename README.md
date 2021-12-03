@@ -19,7 +19,7 @@ My attempt at the Advent of Code for 2021 using Java
 
 1. Sonar Sweep :star: :star:
 2. Dive! :star: :star:
-3. Day 3: Binary Diagnostic :star: :star:
+3. Binary Diagnostic :star: :star:
 
 ## Getting Started
 
