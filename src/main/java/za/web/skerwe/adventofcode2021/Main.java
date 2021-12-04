@@ -5,11 +5,12 @@ import java.io.IOException;
 import za.web.skerwe.adventofcode2021.days.Day01;
 import za.web.skerwe.adventofcode2021.days.Day02;
 import za.web.skerwe.adventofcode2021.days.Day03;
+import za.web.skerwe.adventofcode2021.days.Day04;
 
 public class Main {
 
   /**
-   * Please have a look at the README.md in the root of this project
+   * Please have a look at the README.md in the root of this project.
    * for instructions on how to call the main method.
    */
   public static void main(String... args) {
@@ -27,6 +28,9 @@ public class Main {
       if ("D03".equals(dayFlag)) {
         main.runSpecificDay(new Day03());
       }
+      if ("D04".equals(dayFlag)) {
+        main.runSpecificDay(new Day04());
+      }
     }
 
     if (args.length == 0) {
@@ -43,6 +47,7 @@ public class Main {
     this.runSpecificDay(new Day01());
     this.runSpecificDay(new Day02());
     this.runSpecificDay(new Day03());
+    this.runSpecificDay(new Day04());
   }
 
   private void runSpecificDay(AdventDay day) {
