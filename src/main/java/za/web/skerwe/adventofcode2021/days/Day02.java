@@ -8,7 +8,7 @@ import za.web.skerwe.adventofcode2021.util.InputFileReader;
 public class Day02 extends AdventDay {
 
   /**
-   * Setup for the day's challenge (¬‿¬)
+   * Setup for the day's challenge (¬‿¬).
    */
   public Day02() {
     id = 2;
