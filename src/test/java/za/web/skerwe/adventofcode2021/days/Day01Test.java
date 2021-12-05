@@ -1,5 +1,6 @@
 package za.web.skerwe.adventofcode2021.days;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,12 +11,16 @@ import za.web.skerwe.adventofcode2021.AdventDay;
 public class Day01Test {
 
   private static final String TEST_INPUT_FILE_NAME = "src/test/resources/test-day01-p1.txt";
+  private AdventDay dayTestClass;
+
+  @BeforeEach
+  public void initEach() {
+    dayTestClass = new Day01();
+  }
 
   @Test
   public void testProcessPartOne() throws IOException {
-    AdventDay dayTestClass = new Day01();
     dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
-
     String outputValue = dayTestClass.processPartOne();
 
     assertNotNull(outputValue);
@@ -24,9 +29,7 @@ public class Day01Test {
 
   @Test
   public void testProcessPartTwo() throws IOException {
-    AdventDay dayTestClass = new Day01();
     dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
-
     String outputValue = dayTestClass.processPartTwo();
 
     assertNotNull(outputValue);
