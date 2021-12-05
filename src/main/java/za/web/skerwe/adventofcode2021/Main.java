@@ -6,6 +6,7 @@ import za.web.skerwe.adventofcode2021.days.Day01;
 import za.web.skerwe.adventofcode2021.days.Day02;
 import za.web.skerwe.adventofcode2021.days.Day03;
 import za.web.skerwe.adventofcode2021.days.Day04;
+import za.web.skerwe.adventofcode2021.days.Day05;
 
 public class Main {
 
@@ -31,6 +32,9 @@ public class Main {
       if ("D04".equals(dayFlag)) {
         main.runSpecificDay(new Day04());
       }
+      if ("D05".equals(dayFlag)) {
+        main.runSpecificDay(new Day05());
+      }
     }
 
     if (args.length == 0) {
@@ -41,13 +45,14 @@ public class Main {
   }
 
   /**
-   * Execute all of the Advent of Code Days!
+   * Execute all of the Advent of Code Days.
    */
   public void runAllAdventOfDays() {
     this.runSpecificDay(new Day01());
     this.runSpecificDay(new Day02());
     this.runSpecificDay(new Day03());
     this.runSpecificDay(new Day04());
+    this.runSpecificDay(new Day05());
   }
 
   private void runSpecificDay(AdventDay day) {

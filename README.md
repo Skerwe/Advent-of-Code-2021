@@ -21,6 +21,7 @@ My attempt at the Advent of Code for 2021 using Java
 2. Dive! :star: :star:
 3. Binary Diagnostic :star: :star:
 4. Giant Squid :star: :star:
+5. Hydrothermal Venture :star: :star:
 
 ## Getting Started
 
