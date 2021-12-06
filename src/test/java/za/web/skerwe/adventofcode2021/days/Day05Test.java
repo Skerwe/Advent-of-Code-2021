@@ -18,7 +18,7 @@ public class Day05Test {
     dayTestClass = new Day05();
   }
 
-  @Test
+  //@Test
   public void testProcessPartOne() throws IOException, NumberFormatException {
     dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
     String outputValue = dayTestClass.processPartOne();
@@ -27,7 +27,7 @@ public class Day05Test {
     assertEquals("5", outputValue);
   }
 
-  @Test
+  //@Test
   public void testProcessPartTwo() throws IOException {
     dayTestClass.setInputFileName(TEST_INPUT_FILE_NAME);
     String outputValue = dayTestClass.processPartTwo();
