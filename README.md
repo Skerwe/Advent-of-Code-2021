@@ -15,13 +15,18 @@ My attempt at the Advent of Code for 2021 using Java
 ![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)
 ![GitHub](https://img.shields.io/github/license/Skerwe/Advent-of-Code-2020?style=for-the-badge)
 
+***
+
 ## Advent of Code 2021 Progress
 
-1. Sonar Sweep :star: :star:
-2. Dive! :star: :star:
-3. Binary Diagnostic :star: :star:
-4. Giant Squid :star: :star:
-5. Hydrothermal Venture :star: :star:
+|       M       |   D   |       W       |       D       |       F       |       S       |       S       |
+| :-----------: | :---: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|               |       | :star: :star: | :star: :star: | :star: :star: | :star: :star: | :star: :star: |
+| :star: :star: |   7   |       8       |       9       |      10       |      11       |      12       |
+|      13       |  14   |      15       |      16       |      17       |      18       |      19       |
+|      21       |  22   |      23       |      24       |      25       |               |               |
+
+***
 
 ## Getting Started
 
@@ -104,6 +109,8 @@ mvn checkstyle:check
 ```shell
 mvn pmd:check
 ```
+
+***
 
 ## This project was built with
 

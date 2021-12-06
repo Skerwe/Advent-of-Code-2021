@@ -7,6 +7,7 @@ import za.web.skerwe.adventofcode2021.days.Day02;
 import za.web.skerwe.adventofcode2021.days.Day03;
 import za.web.skerwe.adventofcode2021.days.Day04;
 import za.web.skerwe.adventofcode2021.days.Day05;
+import za.web.skerwe.adventofcode2021.days.Day06;
 
 public class Main {
 
@@ -35,6 +36,9 @@ public class Main {
       if ("D05".equals(dayFlag)) {
         main.runSpecificDay(new Day05());
       }
+      if ("D06".equals(dayFlag)) {
+        main.runSpecificDay(new Day06());
+      }
     }
 
     if (args.length == 0) {
@@ -53,6 +57,7 @@ public class Main {
     this.runSpecificDay(new Day03());
     this.runSpecificDay(new Day04());
     this.runSpecificDay(new Day05());
+    this.runSpecificDay(new Day06());
   }
 
   private void runSpecificDay(AdventDay day) {
