@@ -1,7 +1,5 @@
 # Advent of Code 2021
 
-My attempt at the Advent of Code for 2021 using Java
-
 ```text
               _                 _            __    _____          _        ___   ___ ___  __
      /\      | |               | |          / _|  / ____|        | |      |__ \ / _ \__ \/_ |
@@ -14,6 +12,8 @@ My attempt at the Advent of Code for 2021 using Java
 
 ![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)
 ![GitHub](https://img.shields.io/github/license/Skerwe/Advent-of-Code-2020?style=for-the-badge)
+
+> My attempt at the Advent of Code for 2021 using Java
 
 ***
 
