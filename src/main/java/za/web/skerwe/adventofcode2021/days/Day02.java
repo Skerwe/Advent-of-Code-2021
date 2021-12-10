@@ -12,9 +12,9 @@ public class Day02 extends AdventDay {
    */
   public Day02() {
     id = 2;
-    name = "Day 2: Dive!";
-    partOneDescription = "Multiplying final horizontal position by the final depth";
-    partTwoDescription = "Multiplying final horizontal position by the final depth";
+    name = "Dive!";
+    partOneDescription = "What do you get if you multiply your final horizontal position by your final depth?";
+    partTwoDescription = "What do you get if you multiply your final horizontal position by your final depth?";
 
     inputPart1 = "src/main/resources/input02-p1.txt";
   }

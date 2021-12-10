@@ -12,7 +12,7 @@ public class Day06 extends AdventDay {
    */
   public Day06() {
     id = 6;
-    name = "Day 6: Lanternfish";
+    name = "Lanternfish";
     partOneDescription = "How many lanternfish would there be after 80 days?";
     partTwoDescription = "How many lanternfish would there be after 256 days?";
 

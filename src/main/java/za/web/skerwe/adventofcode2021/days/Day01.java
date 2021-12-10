@@ -13,9 +13,9 @@ public class Day01 extends AdventDay {
    */
   public Day01() {
     id = 1;
-    name = "Day 1: Sonar Sweep";
-    partOneDescription = "The number of times a depth measurement increases";
-    partTwoDescription = "The number of times the sum of measurements in the sliding window increases";
+    name = "Sonar Sweep";
+    partOneDescription = "How many measurements are larger than the previous measurement?";
+    partTwoDescription = "How many sums are larger than the previous sum?";
 
     inputPart1 = "src/main/resources/input01-p1.txt";
   }

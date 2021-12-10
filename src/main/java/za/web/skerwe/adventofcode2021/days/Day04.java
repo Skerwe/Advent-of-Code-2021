@@ -14,9 +14,9 @@ public class Day04 extends AdventDay {
    */
   public Day04() {
     id = 4;
-    name = "Day 4: Giant Squid";
-    partOneDescription = "Final score for choosen board";
-    partTwoDescription = "Final score for board who will win last";
+    name = "Giant Squid";
+    partOneDescription = "What will your final score be if you choose that board?";
+    partTwoDescription = "Once it wins, what would its final score be?";
 
     inputPart1 = "src/main/resources/input04-p1.txt";
   }

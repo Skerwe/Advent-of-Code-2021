@@ -13,9 +13,9 @@ public class Day03 extends AdventDay {
    */
   public Day03() {
     id = 3;
-    name = "Day 3: Binary Diagnostic";
-    partOneDescription = "Power consumption of the submarine";
-    partTwoDescription = "Life support rating";
+    name = "Binary Diagnostic";
+    partOneDescription = "What is the power consumption of the submarine?";
+    partTwoDescription = "What is the life support rating of the submarine?";
 
     inputPart1 = "src/main/resources/input03-p1.txt";
   }

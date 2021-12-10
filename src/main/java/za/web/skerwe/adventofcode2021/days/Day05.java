@@ -16,7 +16,7 @@ public class Day05 extends AdventDay {
    */
   public Day05() {
     id = 5;
-    name = "Day 5: Hydrothermal Venture";
+    name = "Hydrothermal Venture";
     partOneDescription = "At how many points do at least two lines overlap? (horizontal and vertical lines)";
     partTwoDescription = "At how many points do at least two lines overlap? (diagonal lines)";
 
