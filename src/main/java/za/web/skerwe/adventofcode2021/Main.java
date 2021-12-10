@@ -9,6 +9,8 @@ import za.web.skerwe.adventofcode2021.days.Day04;
 import za.web.skerwe.adventofcode2021.days.Day05;
 import za.web.skerwe.adventofcode2021.days.Day06;
 import za.web.skerwe.adventofcode2021.days.Day07;
+import za.web.skerwe.adventofcode2021.days.Day08;
+import za.web.skerwe.adventofcode2021.days.Day09;
 
 public class Main {
 
@@ -43,6 +45,12 @@ public class Main {
       if ("D07".equals(dayFlag)) {
         main.runSpecificDay(new Day07());
       }
+      if ("D08".equals(dayFlag)) {
+        main.runSpecificDay(new Day08());
+      }
+      if ("D09".equals(dayFlag)) {
+        main.runSpecificDay(new Day09());
+      }
     }
 
     if (args.length == 0) {
@@ -63,10 +71,12 @@ public class Main {
     this.runSpecificDay(new Day05());
     this.runSpecificDay(new Day06());
     this.runSpecificDay(new Day07());
+    this.runSpecificDay(new Day08());
+    this.runSpecificDay(new Day09());
   }
 
   private void runSpecificDay(AdventDay day) {
-    System.out.printf("%n%s%n", day.getName());
+    System.out.printf("%nDay %d: %s%n", day.getId(), day.getName());
 
     try {
       System.out.printf("%d.1 %s: %s%n", day.getId(), day.getPartOneDescription(), day.processPartOne());
